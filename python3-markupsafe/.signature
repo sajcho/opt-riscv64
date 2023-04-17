@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRxfkjVPsZVE704nC93BF1hHCRHNeCFCDF8WkaCnBcNvOMREkFXFxCvEutFOlW1P51nQ8LdkhCEgPrif9pM4nlB/uIZsO21VAI=
+SHA256 (Pkgfile) = 1b6534682f5a211d1eab0050e42e08c5d61d60d9c9df5d53849d8cbbe2d1b768
+SHA256 (.footprint) = a272caabb0d1fde323d340436d99d582f9463a006b3f17a0ed5f58c9126dd110
+SHA256 (MarkupSafe-2.1.2.tar.gz) = abcabc8c2b26036d62d4c746381a6f7cf60aafcc653198ad678306986b09450d
