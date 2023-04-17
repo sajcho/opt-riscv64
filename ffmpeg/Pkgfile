@@ -1,0 +1,66 @@
+# Description:	Complete and free Internet live audio and video broadcasting solution for Linux/Unix
+# URL:		https://ffmpeg.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	aom dav1d fdk-aac gnutls lame libass libssh libvpx libwebp pulseaudio sdl2 srt x264 x265
+
+name=ffmpeg
+version=6.0
+release=1
+source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	CFLAGS+=" -fuse-ld=bfd -flto=auto -Wno-psabi -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
+	CXXFLAGS+=" -fuse-ld=bfd -flto=auto -Wno-psabi -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
+	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=bfd -flto=auto"
+
+	sed 's|O3|O2|g' -i configure
+
+	./configure \
+		--prefix=/usr \
+		--enable-version3 \
+		--enable-avfilter \
+		--enable-ffplay \
+		--enable-gnutls \
+		--enable-gpl \
+		--enable-swresample \
+		--enable-libass \
+		--enable-libmp3lame \
+		--enable-libvorbis \
+		--enable-libvpx \
+		--enable-libwebp \
+		--enable-libx264 \
+		--enable-libx265 \
+		--enable-libtheora \
+		--enable-libdav1d \
+		--enable-libfreetype \
+		--enable-libopus \
+		--enable-libfdk-aac \
+		--enable-postproc \
+		--enable-lto \
+		--enable-pic \
+		--enable-pthreads \
+		--enable-shared \
+		--enable-libxcb \
+		--enable-libsrt \
+		--enable-libssh \
+		--enable-vaapi \
+		--enable-vdpau \
+		--enable-libopus \
+		--enable-libpulse \
+		--enable-libsoxr \
+		--enable-nonfree \
+		--enable-libaom \
+		--enable-vulkan \
+		--disable-doc \
+		--disable-libjack \
+		--disable-librtmp \
+		--disable-static
+
+	make V=1
+	${CC:-gcc} -o tools/qt-faststart $CFLAGS tools/qt-faststart.c
+
+	make DESTDIR=$PKG install install-man
+	install -D -m 0755 tools/qt-faststart $PKG/usr/bin/qt-faststart
+}
