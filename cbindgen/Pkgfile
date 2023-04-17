@@ -1,0 +1,24 @@
+# Description:	Generate C bindings from rust code
+# URL:		https://github.com/eqrion/cbindgen
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	rust
+
+name=cbindgen
+version=0.24.3
+release=1
+source=(https://github.com/eqrion/${name}/archive/v${version}/${name}-v${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir "$PKGMK_SOURCE_DIR/rust" || true
+	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+	export CARGO_BUILD_RUSTFLAGS="-C linker=gcc -C link-args=-fuse-ld=bfd"
+	export RUSTFLAGS="-C linker=gcc -C link-args=-fuse-ld=bfd"
+
+	cargo fetch --verbose --locked --target "riscv64gc-unknown-linux-gnu"
+
+	cargo build --verbose --release --frozen --all-targets
+
+	install -Dt $PKG/usr/bin target/release/cbindgen
+}
