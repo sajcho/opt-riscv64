@@ -1,4 +1,5 @@
 d:icu
+d:firefox
 d:cbindgen
 d:librsvg
 d:gobject-introspection
@@ -13,6 +14,12 @@ f:1eb1d7508559303575b6c780acfe8e24:icu/Pkgfile
 f:6d57c27a3ca895bd153ca608fe53a557:icu/.footprint
 f:0baf21c4e9310953d86a5623e2e2532a:icu/README
 f:1e4c7c753c976edca5ed424112539f2d:icu/.signature
+f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
+f:b89980e59cb0a0fffec804c4dbeed5c1:firefox/Pkgfile
+f:9c2289bb1fb064f2917ae5b416794ea3:firefox/.footprint
+f:a5ef8cc6bfe9845cef42de4575171f87:firefox/Screenshot_2023-04-17_at_13-37-44-Troubleshooting_Information.png
+f:ef75d194b0e844ec5bfc3ce043c3ac61:firefox/.signature
+f:6031a2e418cd1f6b48cfd5d80b0d09ff:firefox/buildlog
 f:dcf6800fafb4a920b9295eb3df439a1d:cbindgen/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:0cc0663a4b9d6144dbe426d9f623baa0:cbindgen/.signature
