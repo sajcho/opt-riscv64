@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRxfkjVPsZVExmwizioFbHsiUzi35Bv5Z4qTh2732itwEdoied7M34vfygMx17tcve4xc4GCttyiQHRb30kv680aiykeg4cdQs=
+SHA256 (Pkgfile) = e779f36c43826797fafc39b50f3c11858bf319305016efe2b0e03b63e1ce7fae
+SHA256 (.footprint) = 98bc6d28c19c09115e05279ffdc68cfa9c56f33cbd2c1f4f0f85924c4c5bbcd1
+SHA256 (gstreamer-1.22.1.tar.xz) = cd3ca759f926763615fdfcea63c9761198c42889bc0615ceec73e22b24fde771
