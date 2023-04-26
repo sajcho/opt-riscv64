@@ -49,6 +49,6 @@ f:a2bfcab6ec0c46de2a0e68493b8c3724:perl-xml-parser/.signature
 f:adf0c8ec8b98f33be98f5930343675aa:python3-markupsafe/Pkgfile
 f:01f5b35cb7bba52a09db507610e0168b:python3-markupsafe/.footprint
 f:7dc0e18ee8783bba2f2169b1961f17cb:python3-markupsafe/.signature
-f:42a39b098f39a9beb9a1202431ea0f15:python3-libxml2/Pkgfile
-f:4da2a78c7b767d42e6fb3bebb0ce3128:python3-libxml2/.footprint
-f:2886391d135b549061fff2a944fe29f8:python3-libxml2/.signature
+f:37d6147dce7a5001ac5ba83da9fb3577:python3-libxml2/Pkgfile
+f:579cfce0d9cba329b9a147ad02f2fb34:python3-libxml2/.footprint
+f:f5e9f60235036f9760a5772217daa4be:python3-libxml2/.signature
