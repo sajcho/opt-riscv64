@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRxfkjVPsZVE+q/db+snGws/gh0vx5ikQTg25ARCyGxH15IWYnb42o4sNWK9vJY9aPZ7cecbj+nYbdD2+4xHlfh0q4UqJpGhAw=
-SHA256 (Pkgfile) = 3f496900ed344e79cd475e0a9ee2b9fde7bd1cb2242eecf761016e8b418f6995
-SHA256 (.footprint) = 17bd3285e5c0fab4d71becc9b1094ec9e35c90a62f13e31d5e3b9bc56de1eb1d
+untrusted comment: verify with core-riscv64.pub
+RWQ/uMUaKa0096N8iSOxXmUIav2xGCyFYnjDNjzNlt/FSWdVEu0HJZcbDWC4cvipcMgOsFpXPsf+eRNBEo8O8xcvHgpZ76zkhQc=
+SHA256 (Pkgfile) = 3c29fc553741ffd5d981611037e9c5b1d7088f55877fc1f287670cbe7ee9c99c
+SHA256 (.footprint) = b9e994bb0b9e45d3e281266df881d35f837fa2133a11df06aa0f6febeae9377c
 SHA256 (XML-Parser-2.46.tar.gz) = d331332491c51cccfb4cb94ffc44f9cd73378e618498d4a37df9e043661c515d
