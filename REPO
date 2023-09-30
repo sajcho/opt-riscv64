@@ -1,5 +1,7 @@
 d:icu
 d:firefox
+d:perl-uri
+d:perl-xml-simple
 d:cbindgen
 d:librsvg
 d:gobject-introspection
@@ -9,7 +11,6 @@ d:gstreamer
 d:ffmpeg
 d:perl-xml-parser
 d:python3-markupsafe
-d:python3-libxml2
 f:1eb1d7508559303575b6c780acfe8e24:icu/Pkgfile
 f:6d57c27a3ca895bd153ca608fe53a557:icu/.footprint
 f:0baf21c4e9310953d86a5623e2e2532a:icu/README
@@ -20,6 +21,12 @@ f:9c2289bb1fb064f2917ae5b416794ea3:firefox/.footprint
 f:a5ef8cc6bfe9845cef42de4575171f87:firefox/Screenshot_2023-04-17_at_13-37-44-Troubleshooting_Information.png
 f:ef75d194b0e844ec5bfc3ce043c3ac61:firefox/.signature
 f:6031a2e418cd1f6b48cfd5d80b0d09ff:firefox/buildlog
+f:bb0790ff6102a19f72069364c72fe493:perl-uri/Pkgfile
+f:afcdc5f2bf3ca27b4078d6efaa3f582f:perl-uri/.footprint
+f:496ed5e9d7a123f3053f71294e30a45f:perl-uri/.signature
+f:fb0257ca8f203545751417155f12e549:perl-xml-simple/Pkgfile
+f:138a52a2ee98ac10e1933a79a8544f9a:perl-xml-simple/.footprint
+f:cabea4bf33d753f951fe430fef11f565:perl-xml-simple/.signature
 f:dcf6800fafb4a920b9295eb3df439a1d:cbindgen/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:0cc0663a4b9d6144dbe426d9f623baa0:cbindgen/.signature
@@ -43,12 +50,9 @@ f:f48b303227c79e7de127f235b5ccef64:gstreamer/.signature
 f:6dca80d2f2cfaea8395825e829cbce22:ffmpeg/Pkgfile
 f:5ddc67f0279f91611c7257a921229bb3:ffmpeg/.footprint
 f:ca6166cadcf43f26228012042146c807:ffmpeg/.signature
-f:397429299b9fa3da9b42415f6abb2b37:perl-xml-parser/Pkgfile
-f:483e5b6ffb519028f8033c9665388799:perl-xml-parser/.footprint
-f:a2bfcab6ec0c46de2a0e68493b8c3724:perl-xml-parser/.signature
-f:adf0c8ec8b98f33be98f5930343675aa:python3-markupsafe/Pkgfile
-f:01f5b35cb7bba52a09db507610e0168b:python3-markupsafe/.footprint
-f:7dc0e18ee8783bba2f2169b1961f17cb:python3-markupsafe/.signature
-f:37d6147dce7a5001ac5ba83da9fb3577:python3-libxml2/Pkgfile
-f:579cfce0d9cba329b9a147ad02f2fb34:python3-libxml2/.footprint
-f:f5e9f60235036f9760a5772217daa4be:python3-libxml2/.signature
+f:1c7277ac1b16e6e7f510a3b5787f85d7:perl-xml-parser/Pkgfile
+f:d723084f04a310822d9b65d454b23749:perl-xml-parser/.footprint
+f:1bac26bda7cf6098f1ff33585ac88584:perl-xml-parser/.signature
+f:4e6de2e43e66c35d8862fde4296eb222:python3-markupsafe/Pkgfile
+f:85f2394a077a443f546d77f607a1550b:python3-markupsafe/.footprint
+f:bfb15f827d512fc205186a14cc60055f:python3-markupsafe/.signature
