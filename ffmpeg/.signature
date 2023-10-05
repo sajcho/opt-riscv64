@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRxfkjVPsZVE0f+7EapYY98l0MXOagpGz3rP7AbM30KXoSYw0E0frhYGgy/TFT65WpjQR585l3KTlzCON+Yp8VLm7L1K+Z1OAM=
-SHA256 (Pkgfile) = 1a0bbc4624f565a6158c855ad97810c4b0ab4393b6e74200bcdafe779d8e35d2
-SHA256 (.footprint) = aeae8ca4d565b14f80fc2817d24fff115889e86ce2ca13c6bbf884cd53e2f67b
-SHA256 (ffmpeg-6.0.tar.xz) = 57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082
