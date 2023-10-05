@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRxfkjVPsZVE3iD8n2Ojha7hP1dIBlNRYD1hkGygDEt+A3Rf31g8hY09AlF+lBTInBcBBXDKb9XqyH7newsoQBmozesqe4rOA4=
-SHA256 (Pkgfile) = 84f91257a2fe676262d4b2e781c936bff4a3a74c6694084a8439b9fd24ae64ae
-SHA256 (.footprint) = f93766af78ca7ec6a59d8de887d7c62bdf619be3ba5b3039ffa024cffc0dd9a8
-SHA256 (librsvg-2.56.0.tar.xz) = 194b5097d9cd107495f49c291cf0da65ec2b4bb55e5628369751a3f44ba222b3
