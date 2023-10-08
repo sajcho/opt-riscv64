@@ -1,5 +1,4 @@
 d:python3.11
-d:icu
 d:firefox
 d:perl-uri
 d:perl-xml-simple
@@ -9,17 +8,11 @@ d:rust
 d:llvm-toolchain
 d:gobject-introspection
 d:rust72
-d:gst-plugins-base
-d:gstreamer
 d:perl-xml-parser
 d:python3-markupsafe
 f:13aec29a21796475d30a7e6d33a9268b:python3.11/Pkgfile
 f:76b785d26dce5346219c073b1ef3ee9c:python3.11/.footprint
 f:166afc6279cbf36635642ba04b7e3f41:python3.11/.signature
-f:4594b2975eb6fcc8cd5710b3df49d9a7:icu/Pkgfile
-f:d6d19fb185d00714be27c15b88ff59a1:icu/.footprint
-f:0baf21c4e9310953d86a5623e2e2532a:icu/README
-f:2927c6627ad44a8bae70ad08dc00dad4:icu/.signature
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:b89980e59cb0a0fffec804c4dbeed5c1:firefox/Pkgfile
 f:9c2289bb1fb064f2917ae5b416794ea3:firefox/.footprint
@@ -57,12 +50,6 @@ f:153e87084d059604ff7d47ee236a8ad5:rust72/0001-cargo-Change-libexec-dir.patch
 f:806ea7f14db3a935ef88ed41a37c15b4:rust72/.footprint
 f:e650e22565672241bc86cff013ff959d:rust72/0001-bootstrap-Change-libexec-dir.patch
 f:7c72826a53b71f7527e2337183c010e8:rust72/.signature
-f:76ecf7a8ff10a9c71dadb42641737159:gst-plugins-base/Pkgfile
-f:8dbedc3d9d27eebd4926e7f3694651ae:gst-plugins-base/.footprint
-f:9bc62a5e67df1ce8a14ec4ffd2071df1:gst-plugins-base/.signature
-f:45493e2268453fe7254877fc314c1b91:gstreamer/Pkgfile
-f:68741d2eb24e3ed221115b26515fa8ae:gstreamer/.footprint
-f:f48b303227c79e7de127f235b5ccef64:gstreamer/.signature
 f:1c7277ac1b16e6e7f510a3b5787f85d7:perl-xml-parser/Pkgfile
 f:d723084f04a310822d9b65d454b23749:perl-xml-parser/.footprint
 f:1bac26bda7cf6098f1ff33585ac88584:perl-xml-parser/.signature
