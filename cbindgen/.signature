@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRxfkjVPsZVE7lqk+vSVlbkbmj3s0VbavEDN1gw59LlcT08H/63Wbe+xWnVPg9mAtTkZzz4i2MJKFDjK5RHBqMsRl8i3PHkwgk=
+untrusted comment: verify with opt-riscv64.pub
+RWQyXkdAbSqwyjbVpelW511rB/V1Z0zlCC2owjSfUONQkuuJHPJ+fP+hxx3iJJADTEpC27G+DPaHIEPF0/pqkpkIC+4Vo/F9RQs=
 SHA256 (Pkgfile) = 136b2180e80379cb0c3266ea690de0b86e28729cf32804a10b0c975ecb8c11c5
 SHA256 (.footprint) = fd60992957bd0010460d49684c69464200651af797acdb98547f4847fc9f3f3c
 SHA256 (cbindgen-v0.24.3.tar.gz) = 5d693ab54acc085b9f2dbafbcf0a1f089737f7e0cb1686fa338c2aaa05dc7705
