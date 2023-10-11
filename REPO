@@ -17,9 +17,9 @@ f:35fb6a6f7f36321ee712fbd73f3ef092:firefox-releases/Pkgfile
 f:33b4e61c6b990674b63a5c56a3ee3da7:firefox-releases/.footprint
 f:8120cef24bfc44d5c7f671ec4203011e:firefox-releases/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox-releases/vendor.js
-f:13aec29a21796475d30a7e6d33a9268b:python3.11/Pkgfile
-f:76b785d26dce5346219c073b1ef3ee9c:python3.11/.footprint
-f:166afc6279cbf36635642ba04b7e3f41:python3.11/.signature
+f:8dcac9cbbef8d0e87a6b7c8dd5ce1bc8:python3.11/Pkgfile
+f:d3bdc678a515d956a95721e3522c9165:python3.11/.footprint
+f:eb1b61d39592b247c8f2cc1dc8b0ae56:python3.11/.signature
 f:bb0790ff6102a19f72069364c72fe493:perl-uri/Pkgfile
 f:afcdc5f2bf3ca27b4078d6efaa3f582f:perl-uri/.footprint
 f:496ed5e9d7a123f3053f71294e30a45f:perl-uri/.signature
