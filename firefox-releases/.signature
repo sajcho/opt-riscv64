@@ -1,0 +1,8 @@
+untrusted comment: verify with opt-riscv64.pub
+RWQyXkdAbSqwyvKnmFGDjAsqrgR/o2OeDcFhWbrWgkKsdS/kEcz3wweRgNcgkSk9Sw1sQsIxXrhUglaLnG40iNXmzQixUeQyVAI=
+SHA256 (Pkgfile) = a4bb7d1d766a8015a1a496bf148139942c35eb0b2a9d27063aaea69620b09601
+SHA256 (.footprint) = be857e88a9732280f23852778210d2acc2629cf7930700e1ee72a2a282dbf478
+SHA256 (firefox-118.0.1.source.tar.xz) = a3f4da56d13605d615a740c739e3504261649d040bc473ae2ed609336d79fd95
+SHA256 (distribution.ini) = aa7f1e13ed20f61db3550879eedb14434c4b2a06ee2fa7e9522afaa2acdea4be
+SHA256 (firefox.desktop) = 8ba3439f3dfc5cab883641969c93d8d15f8f20d7188d9568346b2edad52d6f91
+SHA256 (vendor.js) = ceadf102b784b0b494caf15d60351f0a803a3d1dc3b6c892705b3fdebec57a48
