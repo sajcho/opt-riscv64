@@ -1,11 +1,12 @@
 # Description:	Firefox web browser
 # URL:		https://www.firefox.com/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt python3.11 rust72 zip
+# Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox-releases
 _realname=firefox
-version=119.0.1
+version=121.0b5
+_realversion=121.0
 release=1
 source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
 	distribution.ini \
@@ -13,13 +14,15 @@ source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_r
 	vendor.js)
 
 build() {
-	cd ${_realname}-${version}
+	cd ${_realname}-${_realversion}
 
-	export PYTHON="/opt/bin/python3.11"
+	# We are using python 3.12
+	sed 's|3, 11|3, 12|' -i mach
+
 	export SHELL="/bin/bash"
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
-	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE="system"
+	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE="none"
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 	export MOZ_NOSPAM=1
 	export MOZ_DEBUG_FLAGS=" "
@@ -50,13 +53,14 @@ cat <<- EOF > .mozconfig
 		ac_add_options --disable-valgrind
 		ac_add_options --disable-webrtc
 		#
-		ac_add_options --enable-release
 		ac_add_options --enable-application=browser
+		ac_add_options --enable-release
 		ac_add_options --enable-official-branding
 		ac_add_options --enable-default-toolkit=cairo-gtk3-x11-wayland
 		ac_add_options --enable-pulseaudio
 		ac_add_options --enable-alsa
 		ac_add_options --enable-dbus
+		ac_add_options --enable-jit
 		ac_add_options --enable-av1
 		ac_add_options --enable-ffmpeg
 		ac_add_options --enable-hardening
@@ -84,10 +88,11 @@ EOF
 	export CXX=clang++
 	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
 	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
+	export PYTHONWARNINGS="ignore"
 
-	/opt/bin/python3.11 mach -v build
+	./mach build
 
-	DESTDIR=$PKG /opt/bin/python3.11 mach install
+	DESTDIR=$PKG ./mach install
 
 	# optional - change to suit your needs
 	#install -D -m 0644 $SRC/distribution.ini \
