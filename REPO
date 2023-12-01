@@ -37,10 +37,10 @@ f:70eeef1642468940478181058a87add3:rust/Pkgfile
 f:ae1bc0d164018dff28248fb2030ec3be:rust/.footprint
 f:acfe401e3bb660090f61f84ce2869573:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
 f:2d2beb76ae06c8df623ccebb0122a422:rust/.signature
-f:86982908b109d6c9262b045683d81775:llvm-toolchain/Pkgfile
-f:7d075084209a6e04f8b9f40bdffcc43a:llvm-toolchain/.footprint
+f:7582808ea0d7c67cfff769718825a5a4:llvm-toolchain/Pkgfile
+f:1358f0e5e2ad18d90c49ca47cde53033:llvm-toolchain/.footprint
 f:3a56a4e09450a4bc9e2a6d17478f8679:llvm-toolchain/README
-f:16d9f6e9722e90734e033e1e3c6fc146:llvm-toolchain/.signature
+f:ca64d074f4d393b8a1677baa179390c0:llvm-toolchain/.signature
 f:6e82fbef5e6fccd367f37dcd051da661:gobject-introspection/Pkgfile
 f:588e50e6eda83283ff38aeb7c4e8bdbd:gobject-introspection/.footprint
 f:7051ebf071979bbb0339710f25f3d89b:gobject-introspection/.signature
