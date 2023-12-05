@@ -5,7 +5,7 @@
 
 name=firefox-releases
 _realname=firefox
-version=121.0b6
+version=121.0b7
 _realversion=121.0
 release=1
 source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
@@ -59,11 +59,9 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-application=browser
 		ac_add_options --enable-release
 		ac_add_options --enable-official-branding
-		ac_add_options --enable-default-toolkit=cairo-gtk3-x11-wayland
 		ac_add_options --enable-pulseaudio
 		ac_add_options --enable-alsa
 		ac_add_options --enable-dbus
-		ac_add_options --enable-jit
 		ac_add_options --enable-av1
 		ac_add_options --enable-ffmpeg
 		ac_add_options --enable-hardening
