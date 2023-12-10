@@ -12,10 +12,10 @@ d:python3-markupsafe
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-releases/firefox.desktop
 f:992cf7c18cf1b6fcfe98d64b0602b71a:firefox-releases/distribution.ini
 f:73472eae5b4777be69fb33cc08441db0:firefox-releases/icu74.patch
-f:4c339aff6da0e38dda5b861d96ec728e:firefox-releases/Pkgfile
+f:454706e5cac450434ef0ba9def948654:firefox-releases/Pkgfile
 f:ef50291fc8d6b125362ea4bd870e4b1e:firefox-releases/.footprint
-f:c8c831d907f2d29bac4307d00d4a08e1:firefox-releases/build-firefox-releases.log
-f:1a6750fc991ad80bc4b287d9a2784a4a:firefox-releases/.signature
+f:060c7956e771ceddd23881ad2f21ff11:firefox-releases/build-firefox-releases.log
+f:5d4c08da0576b01525764ef0a006c025:firefox-releases/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox-releases/vendor.js
 f:08a197e5d8ef113fe6c30128cc3b5973:rust-bindgen/Pkgfile
 f:8c548635b6b6e04ef05b3bcca82bb071:rust-bindgen/.footprint
