@@ -29,9 +29,9 @@ f:cabea4bf33d753f951fe430fef11f565:perl-xml-simple/.signature
 f:5fbb4e005ba8e6abb48e2af6cd3514bd:cbindgen/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:bcf6dfb8e78de980207aa4ae4033f694:cbindgen/.signature
-f:0b253e1d1c32b9b5930eebb949feb73b:imagemagick/Pkgfile
+f:f3cfc5370ae3c205d39b8b31f718742b:imagemagick/Pkgfile
 f:a3ede02600adce41b786a61d37703215:imagemagick/.footprint
-f:0a2e5ed48e96b5353ca2bdc77620c91d:imagemagick/.signature
+f:9fe71d2b4af80975a038de92e64d8e72:imagemagick/.signature
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:f902f4f75a2ece6ed85c6b8a29682853:rust/0002-tool.rs-change-dir-libexec-to-lib.patch
 f:70eeef1642468940478181058a87add3:rust/Pkgfile
