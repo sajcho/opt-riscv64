@@ -5,7 +5,7 @@
 
 name=firefox-releases
 _realname=firefox
-version=121.0b7
+version=121.0b9
 _realversion=121.0
 release=1
 source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
