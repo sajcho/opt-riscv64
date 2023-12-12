@@ -34,10 +34,10 @@ f:a3ede02600adce41b786a61d37703215:imagemagick/.footprint
 f:9fe71d2b4af80975a038de92e64d8e72:imagemagick/.signature
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:f902f4f75a2ece6ed85c6b8a29682853:rust/0002-tool.rs-change-dir-libexec-to-lib.patch
-f:70eeef1642468940478181058a87add3:rust/Pkgfile
-f:ae1bc0d164018dff28248fb2030ec3be:rust/.footprint
+f:a303302d9d78fa9ffb1389c8da0fa09d:rust/Pkgfile
+f:33d14606e929bf8d7235b62a2947c287:rust/.footprint
 f:acfe401e3bb660090f61f84ce2869573:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
-f:2d2beb76ae06c8df623ccebb0122a422:rust/.signature
+f:0a0c8ee49ea1d64945d347aca8526edb:rust/.signature
 f:7582808ea0d7c67cfff769718825a5a4:llvm-toolchain/Pkgfile
 f:1358f0e5e2ad18d90c49ca47cde53033:llvm-toolchain/.footprint
 f:3a56a4e09450a4bc9e2a6d17478f8679:llvm-toolchain/README
