@@ -8,7 +8,6 @@ d:rust
 d:llvm-toolchain
 d:gobject-introspection
 d:perl-xml-parser
-d:python3-markupsafe
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-releases/firefox.desktop
 f:992cf7c18cf1b6fcfe98d64b0602b71a:firefox-releases/distribution.ini
 f:73472eae5b4777be69fb33cc08441db0:firefox-releases/icu74.patch
@@ -48,6 +47,3 @@ f:7051ebf071979bbb0339710f25f3d89b:gobject-introspection/.signature
 f:1c7277ac1b16e6e7f510a3b5787f85d7:perl-xml-parser/Pkgfile
 f:d723084f04a310822d9b65d454b23749:perl-xml-parser/.footprint
 f:1bac26bda7cf6098f1ff33585ac88584:perl-xml-parser/.signature
-f:4e6de2e43e66c35d8862fde4296eb222:python3-markupsafe/Pkgfile
-f:85f2394a077a443f546d77f607a1550b:python3-markupsafe/.footprint
-f:bfb15f827d512fc205186a14cc60055f:python3-markupsafe/.signature
