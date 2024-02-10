@@ -1,6 +1,7 @@
 d:rust-bindgen
 d:perl-uri
 d:perl-xml-simple
+d:lm-sensors
 d:cbindgen
 d:imagemagick
 d:rust
@@ -16,6 +17,10 @@ f:496ed5e9d7a123f3053f71294e30a45f:perl-uri/.signature
 f:fb0257ca8f203545751417155f12e549:perl-xml-simple/Pkgfile
 f:138a52a2ee98ac10e1933a79a8544f9a:perl-xml-simple/.footprint
 f:cabea4bf33d753f951fe430fef11f565:perl-xml-simple/.signature
+f:778da64a4564bf53e64cb027b709e4c0:lm-sensors/Pkgfile
+f:d1c050d92ce72a993eb1e0ad295b220f:lm-sensors/.footprint
+f:43ed1f6bcbe5b9c3a476c1868cbbb603:lm-sensors/README
+f:7a2b256bc5d4da4a07d4c9d77f78c6ed:lm-sensors/.signature
 f:5fbb4e005ba8e6abb48e2af6cd3514bd:cbindgen/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:bcf6dfb8e78de980207aa4ae4033f694:cbindgen/.signature
