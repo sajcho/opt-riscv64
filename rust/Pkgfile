@@ -5,7 +5,7 @@
 
 name=rust
 _realname=rustc
-version=1.76.0
+version=1.79.0
 release=1
 
 source=(https://static.rust-lang.org/dist/${_realname}-${version}-src.tar.xz \
@@ -29,7 +29,7 @@ build() {
 	install -d src/llvm-project/libunwind
 
 cat <<- EOF > $SRC/config.toml
-	change-id = 118703
+	change-id = 123711
 	profile = "user"
 
 	[llvm]
@@ -53,12 +53,13 @@ cat <<- EOF > $SRC/config.toml
 	host = ["riscv64gc-unknown-linux-gnu"]
 	target = ["riscv64gc-unknown-linux-gnu"]
 	verbose = 0
-	locked-deps = true
 	extended = true
+	locked-deps = true
+	sanitizers = true
 	vendor = true
 	docs = false
+	optimized-compiler-builtins = false
 	profiler = false
-	sanitizers = true
 	python = "/usr/bin/python3"
 	cargo = "/usr/bin/cargo"
 	rustc = "/usr/bin/rustc"
@@ -101,9 +102,8 @@ EOF
 	rm -r $PKG/usr/share/doc
 	rm -r $PKG/usr/share/zsh
 	rm $PKG/usr/lib/rustlib/{components,install.log,manifest-*,rust-installer-version,uninstall.sh}
-	rm $PKG/usr/lib/{libstd-*,libtest-*}
 
 	ln -srft $PKG/usr/lib $PKG/usr/lib/rustlib/riscv64gc-unknown-linux-gnu/lib/*.so
 
-	find $PKG -type f -name 'README.md' -delete
+	find $PKG -type f -name '*.md' -or -name 'LICENSE-*' | xargs rm
 }
